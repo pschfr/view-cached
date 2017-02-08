@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "View Cached",
+	"description": "Chrome extension to view current page on Google Web Cache or Wayback Machine.",
+	"version": "1.0",
+	"permissions": [
+		"contextMenus"
+	],
+	"background": { 
+		"scripts": ["script.js"]
+	},
+	"icons": {
+		"16": "globe.png",
+		"48": "globe.png"
+	}
+}
